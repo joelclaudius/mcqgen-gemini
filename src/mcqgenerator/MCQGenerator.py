@@ -45,7 +45,7 @@ quiz_generation_prompt = PromptTemplate(
     template=template
 )
 
-# Updated initialization
+# Updated initialization update
 quiz_chain = LLMChain(llm=llm, prompt=quiz_generation_prompt, output_key="quiz", verbose=True)
 
 template2 = """
